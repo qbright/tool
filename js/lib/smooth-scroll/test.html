@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body style="width:500px;height:3000px;background:red">
+		<div style="width:400px;height:2800px;background:blue">123</div>
+		<div id="bottom" style="width:400px;height:100px;background:yellow;">222</div>	
+		
+		<script src="smooth-scroll.min.js"></script>
+		<script>
+			smoothScroll.init({
+    speed: 500, // Integer. How fast to complete the scroll in milliseconds
+    easing: 'easeOutQuad', // Easing pattern to use
+    updateURL: true, // Boolean. Whether or not to update the URL with the anchor hash on scroll
+});
+			
+		</script>
+</body>
+</html>
